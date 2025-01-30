@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "evtools"
+version = "0.0.1"
+description = "Echo Verification tools, including Clifford Data Regression."
+authors = ["TimWeaving <timothy.weaving.20@ucl.ac.uk>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23.5"
+qiskit = "^0.46.3"
+qiskit_ibm_runtime = "^0.18.0"
+mthree = "2.5.1"
+qiskit_aer = "^0.13.0"
+matplotlib = "^3.9.4"
+cached_property = "^2.0.1"
+pylatexenc = "^2.10"
+statsmodels = "^0.14.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
